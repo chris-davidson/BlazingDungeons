@@ -1,0 +1,83 @@
+As a <user type>, I want <some goal> so that <some reason>.
+
+Template:
+As a(n) <user type>
+I want <some goal> 
+So that <some reason>
+Feature(s) to deliver: 
+
+As an interface
+I want to have a grid 
+So that I can offer movement and actions
+Feature(s) to deliver: Create a simple x-y axis grid system that has enough size to move an object within it.
+
+As an interface
+I want to be able to know and track movements the protagonist
+So that I can notify the API
+Feature(s) to deliver: Create an API and component that can receive a movement request and give a response of location change or invalid request.
+
+As an interface
+I want to be able to use the reponse from a movement request by a protagonist
+So that I can adjust the position of the protagonist
+Feature(s) to deliver: Let the response to the UI move the position of the protagonist or display invalid action.  
+
+As an interface
+I want to have a fog of war concept
+So that I can hide or show parts of the grid to the protagonist
+Feature(s) to deliver: The API movement component should respond with the fog of war information.  
+    With fog of war, 
+        1. unexpored areas remain dark
+        2. visible areas are exposed with the current position of objects and antagonists
+        3. explored areas are grey and marked with the last seen position of objects and antagonists.
+
+As an interface
+I want to allow the creation of a protagonist
+So that starting statics will be available
+Feature(s) to deliver: Create a UI for the creation of a protagonist
+
+As a designer
+I want to establish and define the statistics a protagonist may use
+So that the system will be able to collect and store the information
+Feature(s) to deliver: Design the statistics and define them.
+
+As a protagonist
+I want inventory
+So that I may use it in my journey
+Feature(s) to deliver: Design the inventory system and define how it can be put to use.
+
+As a protagonist
+I want to interact with an antagonist
+So that I can get information, collect or give information or resolve a conflict
+Feature(s) to deliver: Design different antagonists that have different objectives starting with,
+    1. giving story or quest information
+    2. receive inventory
+    3. receive quest completion
+    4. reward with inventory
+    5. conflict
+
+As an antagonist
+I want to interact with the protagonist
+So that I can give information, collect or give inventory or resolve a conflict
+Feature(s) to deliver: Design and implement the different actions that an antagonist may use.  
+
+As a desinger
+I want a combat/conflict system
+So that conflict resolution may occur
+Feature(s) to deliver: Design a system of combat that take into consideration health, abilities, inventory, etc.
+
+As an antagonist with AI
+I want to move to my advantage
+So that <some reason>
+Feature(s) to deliver: 
+
+As a(n) <user type>
+I want <some goal> 
+So that <some reason>
+Feature(s) to deliver: 
+
+As a(n) <user type>
+I want <some goal> 
+So that <some reason>
+Feature(s) to deliver: 
+
+

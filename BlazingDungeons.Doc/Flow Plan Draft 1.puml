@@ -1,0 +1,44 @@
+@startuml UserStoryDraft
+!theme amiga
+title User-Story Draft 
+
+actor "As an interface" as player
+
+    participant "I want to have a grid" as want
+
+    participant "So that I can offer movement and actions" as reason
+
+    participant "Create a simple x-y axis grid system that has enough \n size to move an object within it." as feature
+
+player -> want
+
+want --> reason
+
+reason --> feature
+
+feature --> goal
+
+@enduml
+
+@startuml UserStoryDraftI
+!theme amiga
+title User-Story Draft
+
+partition " User Story -Grid  " {
+    split
+        -[hidden]->
+        :As an interface;
+    split again
+        -[hidden]->
+        :I want to have a grid;
+    split again    
+        -[hidden]->
+        :So that I can offer movement and actions;
+    end split
+
+    :Create a simple x-y axis grid system that has enough \n size to move an object within it.;
+}
+
+@enduml
+
+
